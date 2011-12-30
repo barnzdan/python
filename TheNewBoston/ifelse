@@ -1,0 +1,13 @@
+#!/usr/bin/env python
+
+
+
+thing = "house"
+animal = "cat"
+
+if thing == "animal":
+    if animal=="cat":
+        print 'i dont know what this animal is'
+
+else:
+    print 'i dont know what thing is'
