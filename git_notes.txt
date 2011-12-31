@@ -14,6 +14,12 @@ git status
 # commit
 git commit -a -m 'comit comment'
 
+# revert back to previous commit of a file
+git reset HEAD <somefile.txt>
+
+# revert back the whole index
+git reset HEAD
+
 # new branch
 ## master by default
 git checkout -b new_branch
