@@ -73,3 +73,6 @@ origin git://lazlo/ruby.git
 
 # remove a branch
 git branch -d new_release
+
+# gui git client
+gitk
