@@ -8,6 +8,9 @@ git init
 # add to reposiotry
 git add <file>
 
+# status of repo
+git status
+
 # commit
 git commit -a -m 'comit comment'
 
