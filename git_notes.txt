@@ -1,0 +1,71 @@
+#############
+# git notes #
+#############
+
+# create empty repository
+git init
+
+# add to reposiotry
+git add <file>
+
+# commit
+git commit -a -m 'comit comment'
+
+# new branch
+## master by default
+git checkout -b new_branch
+
+# swich back to master branch
+git checkout master
+
+# look at current branches
+git branch -v
+
+# switch back to new branch
+git checkout new_branch
+
+# modify and commit within new_branch
+vi <file> / save
+git add <file>
+git commit -a -m <file>
+
+# switch back to master
+git checkout master
+
+*** Look at file you edited, changes commited to new_branch should be gone
+
+# merge changes into master
+git merge new_branch
+
+*** Look at file you edited, changes commited to new_branch should be visible
+
+# create remote git bare reposity
+# on lazlo id 
+cd /Volumes/iES2/git 
+git init bare 
+
+# add origin to client git repo
+cd python
+git add origin dlb@lazlo:/Volumes/iES2/git/python.git
+
+cd ruby
+git add origin dlb@lazlo:/Volumes/iES2/git/ruby.git
+
+# view origin
+git remote -v 
+
+# push changes
+git push 
+
+# pull changes
+git pull
+
+# git server
+nohup git daemon --reuseaddr --base-path=/Volumes/iES2/git/ --export-all --verbose --enable=receive-pack &
+
+# git bare repo now looks like this
+origin git://lazlo/python.git
+origin git://lazlo/ruby.git
+
+# remove a branch
+git branch -d new_release
