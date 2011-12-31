@@ -2,6 +2,7 @@
 
 # new comment
 
+import os
 
     print "/tmp is a directory"
 else:
