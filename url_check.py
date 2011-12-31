@@ -1,5 +1,9 @@
 #!/usr/bin/env python
 
+#
+# submitted during interview with Amazon.com
+#
+
 """1. It takes arguments for: timeout, url, expected_response_code, retry_count
    2. The script performs an HTTP GET for the url
    3. If the HTTP response code matches the expected_response_code the script will exit with status code 0
