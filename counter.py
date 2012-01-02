@@ -6,3 +6,5 @@ name = 'Bob'
 counter = counter + 1
 kilometers = 1.609 * miles
 print '%f miles is the same as %f km' % (miles, kilometers)
+
+
