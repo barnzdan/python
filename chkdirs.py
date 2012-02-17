@@ -39,3 +39,6 @@ for line in open(passwd).readlines():
     print format % ("%s (%s)" % (uname, uid), home_dir, \
            disk, warn)
 
+'''
+doc 
+'''
