@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 
-my_name = 'Dan L. Barnes'
-my_age = 34
-my_height = 68 # inches
-my_weight = 164 # lbs
-my_eyes = 'Blue'
+my_name = 'Foo R. Redros'
+my_age = 43
+my_height = 72 # inches
+my_weight = 182 # lbs
+my_eyes = 'Brown'
 my_teeth = 'White'
-my_hair = 'Brown'
+my_hair = 'Black'
 
 print "Let's talk about %s." % my_name
 print "He's %d inches tall." % my_height
