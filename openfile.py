@@ -2,9 +2,8 @@
 
 # open file
 
-f = open("/tmp/foo.txt", "r")
-lines = f.readlines()
-print lines
-f.close()
-#print f
+with open("/tmp/foo.txt", "r") as f:
+  lines = f.readlines()
+  print lines
+  #print f
 
