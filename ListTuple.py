@@ -11,6 +11,10 @@ print aList[2:]
 
 print aList[:3]
 
+print aList[ : ]
+
+print aList[-1]
+
 aList[1] = 5
 
 print aList
