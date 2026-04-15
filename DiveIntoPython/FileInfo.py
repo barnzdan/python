@@ -4,4 +4,6 @@ class FileInfo(UserDice):
         UserDict.__init__(self)
         self["name"] = filename\
 
-print ("store file metadata")
+//print ("store file metadata")
+
+# time to remove this junk code
